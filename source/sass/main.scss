@@ -1,14 +1,5 @@
-//nesting
-
-.ms-menu {
-  &__hamburger {}
-
+@import "common/normalize";
+@import "components/menu";
+@import "utils/mixins";
 
 
-  &__box{}
-
-
-  &__link{}
-
-  &__link--active{}
-}
