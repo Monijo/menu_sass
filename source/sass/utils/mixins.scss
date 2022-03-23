@@ -4,7 +4,7 @@
 @mixin mq($breakpoint){
   $bp-value: map.get($grid-breakpoints, $breakpoint);
 
-  @debug $bp-value;
+
   @if $bp-value==null{
   $bp-value: 0;
     @error 'Breakpoint #{$breakpoint} is undefined.Check variables.scss'
