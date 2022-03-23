@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sass -w ./source/sass/main.scss ./source/css/style.css"
+
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "mokajozefowicz@gmail.com",
+  "license": "Beerware",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Monijo/menu_sass.git"
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Monijo/menu_sass/issues"
   },
-  "homepage": "https://github.com/Monijo/menu_sass#readme"
+  "homepage": "https://github.com/Monijo/menu_sass#readme",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
 }
